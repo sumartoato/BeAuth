@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace BeRme.Models
 {
@@ -26,4 +27,6 @@ namespace BeRme.Models
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;
     }
-}
+    
+
+    }
